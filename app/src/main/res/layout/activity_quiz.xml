@@ -31,9 +31,29 @@
 
     <Button
         android:id="@+id/next_button"
+        android:drawableRight="@drawable/arrow_right"
+        android:drawablePadding="4dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/next_button" />
+        android:text="@string/next_button"/>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
+        <android.support.v7.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/score_label_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="14dp"
+            android:text="Score"/>
+
+        <android.support.v7.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/score_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="14dp"/>
+
+    </LinearLayout>
 </LinearLayout>
