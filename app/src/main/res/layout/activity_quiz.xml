@@ -37,6 +37,12 @@
         android:layout_height="wrap_content"
         android:text="@string/next_button"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cheat_button"
+        android:text="@string/cheat_button"/>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="14dp"
-            android:text="Score"/>
+            android:text="@string/score_title"/>
 
         <android.support.v7.widget.AppCompatAutoCompleteTextView
             android:id="@+id/score_text_view"

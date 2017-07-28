@@ -11,4 +11,12 @@
     <string name="next_button">Next</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
+    <string name="score_title">Score</string>
+    <string name="next_title">Next</string>
+    <string name="true_title">True</string>
+    <string name="false_title">False</string>
+    <string name="warning_text">Are you sure that you want to do this?</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="cheat_button">Cheat!</string>
+    <string name="judgement_toast">Cheating is wrong.</string>
 </resources>
